@@ -13,6 +13,10 @@ for simplicity, we first apply the recognition methods on single images, and aft
 4. Crop the detected faces and align them.
 5. Obtain face features from facial images.
 6. Calculate the identity discrepancy between the known face and unknown faces using the normL2 distance and determine whether or not they are matched using a threshold.
-7. Draw bounding boxes obtained from the face detection step, and determine their colors.
+7. Draw bounding boxes obtained from the face detection step, and determine their colors.   
 
-After applying these steps on images, the recognition task can be extended to videos, where the recognition task must be applied to each frame of the video. In this project, a video of Christiano Ronaldo was used, and his face was recognized in each frame, with green bounding boxes drawn around his face and red bounding boxes drawn around other faces.
+sample reslut:  
+![linkin park](sample_result.png)  
+
+
+After applying these steps on images, the recognition task can be extended to videos, where the recognition task must be applied to each frame of the video. In this project, a video of Christiano Ronaldo was used, and his face was recognized in each frame, with green bounding boxes drawn around his face and red bounding boxes drawn around other faces.  
